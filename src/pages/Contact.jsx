@@ -10,11 +10,8 @@ export default function Contact(){
         <input/>
         <h2>Message:</h2>
         <input/>
+        <button type="submit" class="btn btn-dark">Submit</button>
       </form>
-
-      <div>
-        <button type="button" class="btn btn-dark">Dark</button>
-      </div>
 
     </div>
   );
