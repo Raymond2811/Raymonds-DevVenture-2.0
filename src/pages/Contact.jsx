@@ -13,7 +13,7 @@ export default function Contact(){
       </form>
 
       <div>
-        <button/>
+        <button type="button" class="btn btn-dark">Dark</button>
       </div>
 
     </div>
