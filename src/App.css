@@ -1,0 +1,14 @@
+:root{
+  --black:#000000;
+  --white:#EDEDED;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: Raleway, serif;
+  background-color: var(--black);
+}
+
+p{
+  color: var(--white);
+}
