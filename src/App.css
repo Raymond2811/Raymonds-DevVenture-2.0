@@ -1,7 +1,7 @@
-:root{
+/* :root{
   --black:#000000;
   --white:#EDEDED;
-}
+} */
 
 *{
   box-sizing: border-box;
@@ -11,4 +11,23 @@
 
 p{
   color: var(--white);
+}
+
+h1{
+  color: blue;
+}
+
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.footerBottom{
+  display: flex;
+  justify-content: center;
 }
