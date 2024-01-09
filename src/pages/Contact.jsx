@@ -9,6 +9,8 @@ export default function Contact(){
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [messageError, setMessageError] = useState('');
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -18,7 +20,7 @@ export default function Contact(){
       setNameError(value ? '' : 'Enter your name');
     } else if (name === 'Email') {
       setEmail(value);
-      setEmailError(value ? '' : 'Enter your email address');
+      setEmailError(emailRegex.test(value) ? '' : 'Enter a valid email address');
     } else if (name === 'Message') {
       setMessage(value);
       setMessageError(value ? '' : 'Enter your message');
@@ -39,7 +41,7 @@ export default function Contact(){
       setMessageError('Enter your message');
     }
   
-    if (Name && Email && Message) {
+    if (!emailError && Name && Email && Message) {
       setName('');
       setEmail('');
       setMessage('');
