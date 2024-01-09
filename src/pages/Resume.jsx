@@ -1,7 +1,11 @@
+import resume from '../assets/images/Resume.pdf'
+
 export default function Resume(){
   return (
     <div>
       <h1>Resume</h1>
+      
+      <p>Download my <a href={resume} target='_blank'>resume</a></p>
 
       <h2> Front-end Proficiencies </h2>
       <ul>
@@ -19,7 +23,7 @@ export default function Resume(){
         <li>APIs</li>
         <li>Node</li>
         <li>Express</li>
-        <li>MySql,Sequelize</li>
+        <li>MySql, Sequelize</li>
         <li>MongoDB, Mongoose</li>
         <li>REST</li>
         <li>GraphQL</li>
