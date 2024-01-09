@@ -14,6 +14,7 @@ export default function Project({item}) {
         >
           <FontAwesomeIcon icon={faGithub} size="3x"/>
         </a>
+        <img src={item.image} alt={item.title} />
     </div>
   )
 }
