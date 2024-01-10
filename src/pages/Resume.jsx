@@ -2,7 +2,7 @@ import resume from '../assets/images/Resume.pdf'
 
 export default function Resume(){
   return (
-    <div>
+    <div className='resumeContainer'>
       <h1>Resume</h1>
       
       <p>Download my <a href={resume} target='_blank'>resume</a></p>

@@ -50,9 +50,31 @@ header h1{
   margin-bottom: 25px;
 }
 
+.resumeContainer{
+  margin: 10px 100px;
+}
+
+.resumeContainer a{
+  text-decoration: none;
+  color: var(--green);
+}
+
+.resumeContainer a:hover{
+  color: var(--skyblue);
+}
+
+.resumeContainer ul{
+  color: var(--green); 
+  list-style: circle;
+}
+
+.resumeContainer h2{
+  color: var(--skyblue);
+}
 .footerContainer{
   width: 100%;
-  padding: 70px 30px 20px;
+  padding: 10px 0px;
+  margin-top: 10px;
 }
 
 .socialIcons{
