@@ -50,6 +50,46 @@ header h1{
   margin-bottom: 25px;
 }
 
+.contactContainer{
+  margin: 0px 100px;
+  padding-bottom: 25px;
+}
+
+.contactContainer h1{
+  margin-bottom: 25px;
+}
+
+.contactContainer h2{
+  color: var(--skyblue);
+  margin-bottom: 15px;
+}
+
+.contactContainer input {
+  width: 50%;
+  background-color: white;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.contactContainer #messageInput {
+  background-color: white;
+  width: 50%;
+  height: 200px;
+  border-radius: 4px;
+  display: block; 
+}
+
+.contactContainer .submitBtn {
+  display: block; 
+  margin-top: 10px;
+  background-color: var(--skyblue);
+  font-weight: bold;
+}
+
+.contactContainer .submitBtn:hover {
+ background-color: var(--green);
+}
+
 .resumeContainer{
   margin: 10px 100px;
 }
@@ -71,6 +111,7 @@ header h1{
 .resumeContainer h2{
   color: var(--skyblue);
 }
+
 .footerContainer{
   width: 100%;
   padding: 10px 0px;

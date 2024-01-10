@@ -49,7 +49,7 @@ export default function Contact(){
   }
 
   return (
-    <div>
+    <div className='contactContainer'>
       <h1>Contact</h1>
       
       <form onSubmit={submitForm}>
@@ -72,15 +72,15 @@ export default function Contact(){
         {emailError && <p className="error">{emailError}</p>}
 
         <h2>Message:</h2>
-        <input
+        <textarea
           name='Message'
           value={Message}
           onChange={handleInputChange}
-          type="text"
+          id='messageInput'
         />
         {messageError && <p className="error">{messageError}</p>}
 
-        <button type="submit" className="btn btn-dark">
+        <button type="submit" className="btn submitBtn">
           Submit
         </button>
       </form>
