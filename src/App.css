@@ -63,7 +63,7 @@ header h1{
 }
 
 .projectItem{
-  border: solid 4px var(--green);
+  border: solid 6px var(--green);
   height: 300px;
   margin: 25px auto;
   width: 40%;
@@ -97,7 +97,7 @@ header h1{
 .projectContainer .githubIcon {
   position: absolute;
   top: 15%;
-  left: 80%;
+  left: 70%;
   transform: translate(-50%,-50%);
   font-size: 13px;
   padding: 10px;
