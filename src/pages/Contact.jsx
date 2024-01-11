@@ -49,7 +49,7 @@ export default function Contact(){
   }
 
   return (
-    <div className='contactContainer'>
+    <section className='contactContainer'>
       <h1>Contact</h1>
       
       <form onSubmit={submitForm}>
@@ -85,6 +85,6 @@ export default function Contact(){
         </button>
       </form>
 
-    </div>
+    </section>
   );
 };

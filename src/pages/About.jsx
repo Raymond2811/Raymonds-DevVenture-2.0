@@ -2,7 +2,7 @@
 
 export default function About(){
   return (
-    <div className="aboutContainer">
+    <section className="aboutContainer">
       <h1>About Me</h1>
       {/* <img src={avatar} alt={avatar}/> */}
       <p>
@@ -16,6 +16,6 @@ export default function About(){
         Then of my favorite games at the moment is Rainbow 6 Siege.
 
       </p>
-    </div>
+    </section>
   );
 }

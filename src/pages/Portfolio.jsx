@@ -53,7 +53,7 @@ export default function Portfolio(){
     }
   ]
   return (
-    <div className="portfolioContainer">
+    <section className="portfolioContainer">
       <h1>Portfolio</h1>
       <div className="row">
         {projects.map((item, index) => (
@@ -62,6 +62,6 @@ export default function Portfolio(){
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

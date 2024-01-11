@@ -2,7 +2,7 @@ import resume from '../assets/images/Resume.pdf'
 
 export default function Resume(){
   return (
-    <div className='resumeContainer'>
+    <section className='resumeContainer'>
       <h1>Resume</h1>
       
       <p>Download my <a href={resume} target='_blank'>resume</a></p>
@@ -28,6 +28,6 @@ export default function Resume(){
         <li>REST</li>
         <li>GraphQL</li>
       </ul>
-    </div>
+    </section>
   );
 }
