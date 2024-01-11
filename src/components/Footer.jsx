@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -12,9 +12,23 @@ export default function Footer() {
         >
           <FontAwesomeIcon icon={faGithub} size="3x"/>
         </a>
+        <a
+          href="https://stackoverflow.com/users/22317454/raymond-bautista"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faStackOverflow} size="3x" />
+        </a>
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} size="3x" />
+        </a>
       </div>
       <div className="footerBottom">
-        <p>Copyright &copy;2024; Designed by Raymond B.</p>
+        <p>Copyright &copy;2024; Designed by RAYMOND</p>
       </div>
     </div>
   );

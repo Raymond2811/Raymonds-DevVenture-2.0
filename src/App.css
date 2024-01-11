@@ -159,6 +159,11 @@ header h1{
 .socialIcons{
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+}
+
+.socialIcons a{
+  padding: 10px;
 }
 
 .footerBottom{
