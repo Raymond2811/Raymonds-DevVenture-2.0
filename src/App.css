@@ -50,6 +50,65 @@ header h1{
   margin-bottom: 25px;
 }
 
+.portfolioContainer{
+  margin: 0px 100px;
+}
+
+.portfolioContainer h3{
+  font-size: 27px;
+  width: 150px;
+  margin: 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.projectItem{
+  border: solid 4px var(--green);
+  height: 300px;
+  margin: 25px auto;
+  width: 40%;
+  padding: 0px;
+  border-radius: 6px;
+}
+
+.projectContainer {
+  position: relative;
+  padding: 0px;
+  height: 100%;
+}
+
+.projectContainer a{
+  text-decoration: none;
+  color: var(--green);
+  position: absolute;
+  top: 17%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.projectContainer a:hover{
+  color: var(--skyblue);
+  opacity: 1;
+}
+
+.projectContainer .githubIcon {
+  position: absolute;
+  top: 15%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  font-size: 13px;
+  padding: 10px;
+}
+
+.projectContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .contactContainer{
   margin: 0px 100px;
   padding-bottom: 25px;
