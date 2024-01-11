@@ -61,6 +61,11 @@ header h1{
   color: var(--green);
 }
 
+.aboutContainer img{
+  border-radius: 20%;
+  margin-bottom: 25px;
+}
+
 .portfolioContainer h3{
   font-size: 28px;
   width: 150px;

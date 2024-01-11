@@ -1,10 +1,10 @@
-// import avatar from '../assets/images/Avatar.png';
+import avatar from '../assets/images/Avatar.png';
 
 export default function About(){
   return (
     <section className="aboutContainer">
       <h1>About Me</h1>
-      {/* <img src={avatar} alt={avatar}/> */}
+      <img src={avatar} alt={avatar}/>
       <p>
         Hi, I'm Raymond Bautista, a 21-year-old Peruvian-American on a coding adventure.
         Before all this, I worked as an assembler at Cutera while juggling classes for electrical engineering at Skyline Community College.
