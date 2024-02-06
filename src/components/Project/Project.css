@@ -1,0 +1,43 @@
+.projectItem{
+  border: solid 6px;
+  height: 300px;
+  margin: 25px auto;
+  width: 40%;
+  padding: 0px;
+  border-radius: 6px;
+}
+
+.projectContainer {
+  position: relative;
+  padding: 0px;
+  height: 100%;
+}
+
+.projectContainer a{
+  position: absolute;
+  top: 17%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.projectContainer a:hover{
+  opacity: 1;
+}
+
+.projectContainer .githubIcon {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  font-size: 13px;
+  padding: 10px;
+}
+
+.projectContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

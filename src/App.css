@@ -1,65 +1,14 @@
-:root{
-  --black:#000000;
-  --white:#EDEDED;
-  --green:#08fa4db4;
-  --skyblue:#04e8f8;
-}
-
 *{
   box-sizing: border-box;
-  font-family: Raleway, serif;
-  background-color: var(--black);
 }
 
 p{
-  color: var(--green);
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-h1, h2, h3{
-  color: var(--skyblue);
-  margin: 15px 0px 25px 0px;
-}
-
 a{
   text-decoration: none;
-  color: var(--green);
-}
-
-a:hover{
-  color: var(--skyblue);
-}
-
-section{
-  margin: 0px 100px;
-}
-
-header{
-  margin: 30px 0px;
-}
-
-header h1{
-  font-size: 50px;
-  background-color: var(--skyblue);
-  padding: 0px 10px 0px 30px;
-  color: black;
-  border-radius: 0px 10px 10px 0px;
-}
-
-.nav-link {
-  color: var(--skyblue);
-  transition: color 0.3s;
-  font-size: 25px;
-  margin-right: 30px;
-}
-
-.nav-link:hover {
-  color: var(--green);
-}
-
-.nav-link.active {
-  color: var(--green);
 }
 
 .aboutContainer img{
@@ -75,49 +24,6 @@ header h1{
   border-radius: 8px;
 }
 
-.projectItem{
-  border: solid 6px var(--green);
-  height: 300px;
-  margin: 25px auto;
-  width: 40%;
-  padding: 0px;
-  border-radius: 6px;
-}
-
-.projectContainer {
-  position: relative;
-  padding: 0px;
-  height: 100%;
-}
-
-.projectContainer a{
-  position: absolute;
-  top: 17%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 8px;
-}
-
-.projectContainer a:hover{
-  opacity: 1;
-}
-
-.projectContainer .githubIcon {
-  position: absolute;
-  top: 15%;
-  left: 70%;
-  transform: translate(-50%,-50%);
-  font-size: 13px;
-  padding: 10px;
-}
-
-.projectContainer img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .contactContainer input {
   width: 50%;
@@ -153,28 +59,6 @@ header h1{
  background-color: var(--green);
 }
 
-.resumeContainer ul{
-  color: var(--green); 
+.resumeContainer ul{ 
   list-style: circle;
-}
-
-.footerContainer{
-  width: 100%;
-  padding: 10px 0px;
-  margin: 25px 0px 20px 0px;
-}
-
-.socialIcons{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
-.socialIcons a{
-  padding: 10px;
-}
-
-.footerBottom{
-  display: flex;
-  justify-content: center;
 }

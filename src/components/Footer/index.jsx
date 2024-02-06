@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import './Footer.css'
+
 
 export default function Footer() {
   return (

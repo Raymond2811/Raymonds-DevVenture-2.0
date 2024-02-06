@@ -1,0 +1,20 @@
+.footerContainer{
+  width: 100%;
+  padding: 10px 0px;
+  margin: 25px 0px 20px 0px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.socialIcons a{
+  padding: 10px;
+}
+
+.footerBottom{
+  display: flex;
+  justify-content: center;
+}
