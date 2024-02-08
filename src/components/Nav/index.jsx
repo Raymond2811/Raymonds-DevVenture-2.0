@@ -1,46 +1,37 @@
 import { Link, useLocation } from 'react-router-dom';
+import { Tabs, Tab } from '@mui/material';
 import './NavTabs.css'
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
+  const tabData = [
+    { label: 'Home', to: '/' },
+    { label: 'About', to: '/about' },
+    { label: 'Contact', to: '/contact' },
+    { label: 'Portfolio', to: '/portfolio'},
+    { label: 'Resume', to: '/resume'}
+  ];
+
+  const currentIndex = tabData.findIndex((tab) => tab.to === currentPage);
+
   return (
-    <ul className="nav justify-content-end nav-tabs-container">
-      <li className="nav-item">
-        <Link
-          to="/About"
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
-        >
-          About Me
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
-        >
-          Portfolio
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </Link>
-      </li>
-    </ul>
+    <Tabs 
+      className='navTab' 
+      value={currentIndex !== -1 ? currentIndex : false}
+    >
+      {tabData.map((tab, index) => (
+        <Tab
+          key={index}
+          label={tab.label}
+          component={Link}
+          to={tab.to}
+          value={index}
+          className={`${currentIndex === index ? 'activeTab' : 'defaultTab'}`}
+        />
+      ))}
+    </Tabs>
   )
 }
 
 export default NavTabs;
-
