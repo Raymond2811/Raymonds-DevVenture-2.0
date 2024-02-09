@@ -1,6 +1,7 @@
 import {useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import avatar1 from '../assets/images/Avatar1.png'
 
 export default function Home(){
 
@@ -13,47 +14,53 @@ export default function Home(){
   
   return(
     <section className="homeContainer">
-      <h2>Hello, I am <br/> Raymond Bautista</h2>
-      <p> I am into {' '}
-        <span style={{fontWeight:'bold', color:'red'}}>
-          {text}
-        </span>
-        <span style={{color: 'red'}}>
-          <Cursor cursorStyle='|'/>
-        </span>
-      </p>
-      <button> About Me </button>
-      
-      <div className="socials">
-        <ul className="socialIcons">
-          <li>
-            <a
-            href="https://github.com/Raymond2811"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} fontSize="35px"/>
-            </a>
-          </li>
-          <li>
-            <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} fontSize="35px" />
-            </a>
-          </li>
-          <li>
-            <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedinIn} fontSize="35px" />
-            </a>
-          </li>
-        </ul>
+      <div className="column1">
+        <h2>Hello, I am <br/> Raymond Bautista</h2>
+        <p> I am into {' '}
+          <span style={{fontWeight:'bold', color:'red'}}>
+            {text}
+          </span>
+          <span style={{color: 'red'}}>
+            <Cursor cursorStyle='|'/>
+          </span>
+        </p>
+        <button> About Me </button>
+        
+        <div className="socials">
+          <ul className="socialIcons">
+            <li>
+              <a
+              href="https://github.com/Raymond2811"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} fontSize="35px"/>
+              </a>
+            </li>
+            <li>
+              <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} fontSize="35px" />
+              </a>
+            </li>
+            <li>
+              <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedinIn} fontSize="35px" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="column2">
+        <img src={avatar1} alt='avatar'/>
       </div>
     </section>
   )

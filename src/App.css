@@ -15,6 +15,25 @@ a{
   text-decoration: none;
 }
 
+.homeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column2 {
+  flex: 1;
+  display: flex;
+  justify-content: center
+}
+
 .aboutContainer img{
   border-radius: 20%;
   margin-bottom: 25px;
