@@ -1,4 +1,6 @@
 import avatar from '../assets/images/Avatar.png';
+import avatar2 from '../assets/images/avatar2.png';
+import berkeley from '../assets/images/Berkeley.jpeg';
 
 export default function About(){
   return (
@@ -6,7 +8,7 @@ export default function About(){
       <h1>About Me</h1>
       <div className="row">
         <div className="imageContainer">
-          <img src="image1.jpg" alt="Image 1" />
+          <img src={avatar2} alt="avatar" />
         </div>
         <div className="textContainer">
           <p>
@@ -56,7 +58,7 @@ export default function About(){
           </p>
         </div>
         <div className="imageContainer">
-          <img src="image2.jpg" alt="Image 2" />
+          <img src={berkeley} alt="UC Berkeley Extension" />
         </div>
       </div>
     </section>
