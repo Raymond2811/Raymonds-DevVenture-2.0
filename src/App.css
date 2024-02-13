@@ -34,9 +34,23 @@ a{
   justify-content: center
 }
 
-.aboutContainer img{
-  border-radius: 20%;
-  margin-bottom: 25px;
+.aboutContainer .row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.aboutContainer .imageContainer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.aboutContainer .textContainer {
+  flex: 2;
+}
+
+.aboutContainer img {
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolioContainer h3{
