@@ -61,39 +61,36 @@ a{
   border-radius: 8px;
 }
 
-
-.contactContainer input {
-  width: 50%;
-  background-color: white;
-  margin-bottom: 15px;
-  border-radius: 4px;
+.contactContainer .row{
+  display: flex;
 }
 
-.contactContainer input:focus{
-  border: 3px solid darkblue;
+.formColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
 }
 
-.contactContainer #messageInput {
-  background-color: white;
-  width: 50%;
-  height: 200px;
-  border-radius: 4px;
-  display: block; 
+.formColumn .MuiTextField-root {
+  width: 90%; 
+  margin-bottom: 10px;
 }
 
-#messageInput:focus{
-  border: 3px solid darkblue;
+.formColumn .MuiButton-root {
+  width: 25%; 
+  background-color: purple;
+  color: white;
 }
 
-.contactContainer .submitBtn {
-  display: block; 
-  margin-top: 10px;
-  background-color: var(--skyblue);
-  font-weight: bold;
+.contactContainer .imageColumn {
+  flex: 1;
+  margin-bottom: 50px;
 }
 
-.contactContainer .submitBtn:hover {
- background-color: var(--green);
+.contactContainer img{
+  width: 80%;
 }
 
 .resumeContainer ul{ 
