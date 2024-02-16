@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import contactImg from '../assets/images/email.png';
 
 export default function Contact(){
 
@@ -25,7 +28,6 @@ export default function Contact(){
       setMessage(value);
       setMessageError(value ? '' : 'Enter your message');
     }
-
   }
 
   const submitForm =(e) =>{
@@ -51,40 +53,45 @@ export default function Contact(){
   return (
     <section className='contactContainer'>
       <h1>Contact</h1>
-      
-      <form onSubmit={submitForm}>
-        <h2>Name:</h2>
-        <input
-          name='Name'
-          value={Name}
-          onChange={handleInputChange}
-          type="text"
-        />
-        {nameError && <p className="error">{nameError}</p>}
+      <div className='row'>
+        <form className="formColumn" onSubmit={submitForm}>
+          <TextField
+            label="Name"
+            name="Name"
+            value={Name}
+            onChange={handleInputChange}
+            error={nameError}
+            helperText={nameError}
+          />
 
-        <h2>Email address:</h2>
-        <input
-          name='Email'
-          value={Email}
-          onChange={handleInputChange}
-          type="text"
-        />
-        {emailError && <p className="error">{emailError}</p>}
+          <TextField
+            label="Email address"
+            name="Email"
+            value={Email}
+            onChange={handleInputChange}
+            error={emailError}
+            helperText={emailError}
+          />
 
-        <h2>Message:</h2>
-        <textarea
-          name='Message'
-          value={Message}
-          onChange={handleInputChange}
-          id='messageInput'
-        />
-        {messageError && <p className="error">{messageError}</p>}
+          <TextField
+            label="Message"
+            name="Message"
+            multiline
+            rows={8}
+            value={Message}
+            onChange={handleInputChange}
+            error={messageError}
+            helperText={messageError}
+          />
 
-        <button type="submit" className="btn submitBtn">
-          Submit
-        </button>
-      </form>
-
+          <Button type="submit" variant="contained">
+            Submit
+          </Button>
+        </form>
+        <div className="imageColumn">
+          <img src={contactImg} alt="contact image"/>
+        </div>
+      </div>
     </section>
   );
 };
