@@ -66,6 +66,19 @@ a{
   border-radius: 8px;
 }
 
+.portfolioContainer .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolioContainer .col{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
 /* contact page */
 .contactContainer .row{
   display: flex;

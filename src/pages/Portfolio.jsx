@@ -57,7 +57,7 @@ export default function Portfolio(){
       <h1>Portfolio</h1>
       <div className="row">
         {projects.map((item, index) => (
-          <div key={item.id} className="col-md-6 projectItem">
+          <div key={item.id} className="col">
             <Project item={item} />
           </div>
         ))}
