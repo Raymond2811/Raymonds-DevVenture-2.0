@@ -58,14 +58,6 @@ a{
 }
 /* end */
 
-.portfolioContainer h3{
-  font-size: 28px;
-  width: 150px;
-  margin: 0;
-  padding: 10px;
-  border-radius: 8px;
-}
-
 .portfolioContainer .row{
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +68,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px;
+  margin-bottom: 25px;
 }
 
 /* contact page */

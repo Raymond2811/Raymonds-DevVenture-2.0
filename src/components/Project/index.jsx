@@ -22,7 +22,7 @@ export default function Project({item}) {
       <CardMedia
         component="img"
         alt={item.title}
-        height="140"
+        height="100%"
         image={item.image}  
       />
       <CardContent>
@@ -30,7 +30,7 @@ export default function Project({item}) {
           {item.title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aliquid.
+          {item.desc}
         </Typography>
       </CardContent>
       <CardActions>
