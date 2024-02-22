@@ -1,43 +1,40 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WebIcon from '@mui/icons-material/Web';
+
 
 export default function Project({item}) {
   return(
     <div className="projectContainer">
-      {/* <img src={item.image} alt={item.title} />
-      <a href={item.link} target="_blank">
-        <h3>{item.title}</h3>
-      </a>
-      <a href={item.repo} target="_blank" rel="noopener noreferrer" className="githubIcon">
-          <FontAwesomeIcon icon={faGithub} size="3x"/>
-      </a> */}
-
-      <Card>
-      <CardMedia
-        component="img"
-        alt={item.title}
-        height="100%"
-        image={item.image}  
-      />
-      <CardContent>
-        <Typography variant="h5" component="div">
-          {item.title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {item.desc}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">{item.link}</Button>
-        <Button size="small">{item.repo}</Button>
-      </CardActions>
-    </Card>
+      <Card style={{width:'400px'}}>
+        <CardMedia
+          component="img"
+          alt={item.title}
+          height="100%"
+          image={item.image}  
+        />
+        <CardContent>
+          <Typography variant="h5" component="div">
+            {item.title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {item.desc}
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <IconButton size="small" href={item.link} target="_blank">
+            <WebIcon/>
+          </IconButton>
+          <IconButton size="small" href={item.repo} target="_blank">
+            <GitHubIcon/>
+          </IconButton>
+        </CardActions>
+      </Card>
     </div>
   )
 }
