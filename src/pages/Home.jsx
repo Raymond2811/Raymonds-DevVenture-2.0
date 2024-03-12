@@ -1,6 +1,6 @@
 import {useTypewriter, Cursor } from 'react-simple-typewriter';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { Button, IconButton, Typography } from '@mui/material';
+import { GitHub, Twitter, LinkedIn } from '@mui/icons-material';
 import avatar1 from '../assets/images/Avatar1.png'
 
 export default function Home(){
@@ -15,7 +15,9 @@ export default function Home(){
   return(
     <section className="homeContainer">
       <div className="column1">
-        <h2>Hello, I am <br/> Raymond Bautista</h2>
+        <Typography variant="h4">
+          Hello, I am <br /> Raymond Bautista
+        </Typography>
         <p> I am into {' '}
           <span style={{fontWeight:'bold', color:'red'}}>
             {text}
@@ -24,36 +26,38 @@ export default function Home(){
             <Cursor cursorStyle='|'/>
           </span>
         </p>
-        <button> About Me </button>
+        <Button variant="contained" style={{backgroundColor: 'purple', color:'white'}}>
+          About Me
+        </Button>
         
         <div className="socials">
           <ul className="socialIcons">
             <li>
-              <a
-              href="https://github.com/Raymond2811"
-              target="_blank"
-              rel="noopener noreferrer"
+              <IconButton
+                href="https://github.com/Raymond2811"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} fontSize="35px"/>
-              </a>
+                <GitHub  fontSize="large"/>
+              </IconButton>
             </li>
             <li>
-              <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              <IconButton
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faTwitter} fontSize="35px" />
-              </a>
+                <Twitter fontSize="large" />
+              </IconButton>
             </li>
             <li>
-              <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              <IconButton
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faLinkedinIn} fontSize="35px" />
-              </a>
+                <LinkedIn fontSize="large" />
+              </IconButton>
             </li>
           </ul>
         </div>
