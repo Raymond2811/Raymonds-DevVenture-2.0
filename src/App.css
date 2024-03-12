@@ -15,6 +15,10 @@ a{
   text-decoration: none;
 }
 
+main{
+  margin: 0px 50px 0px 50px;
+}
+
 /* home page */
 
 .homeContainer {
@@ -39,7 +43,6 @@ a{
 .socialIcons{
   list-style: none;
   padding: 0;
-  color: purple;
 }
 /* end */
 

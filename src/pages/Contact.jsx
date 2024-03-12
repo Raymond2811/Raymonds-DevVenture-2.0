@@ -60,7 +60,7 @@ export default function Contact(){
             name="Name"
             value={Name}
             onChange={handleInputChange}
-            error={nameError}
+            error={Boolean(nameError)}
             helperText={nameError}
           />
 
@@ -69,7 +69,7 @@ export default function Contact(){
             name="Email"
             value={Email}
             onChange={handleInputChange}
-            error={emailError}
+            error={Boolean(emailError)}
             helperText={emailError}
           />
 
@@ -80,7 +80,7 @@ export default function Contact(){
             rows={8}
             value={Message}
             onChange={handleInputChange}
-            error={messageError}
+            error={Boolean(messageError)}
             helperText={messageError}
           />
 
