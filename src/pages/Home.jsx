@@ -15,10 +15,10 @@ export default function Home(){
   return(
     <section className="homeContainer">
       <div className="column1">
-        <Typography variant="h4">
+        <Typography variant="h3">
           Hello, I am <br /> Raymond Bautista
         </Typography>
-        <p> I am into {' '}
+        <p style={{fontSize:'25px'}}> I am into {' '}
           <span style={{fontWeight:'bold', color:'red'}}>
             {text}
           </span>
@@ -38,7 +38,7 @@ export default function Home(){
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GitHub  fontSize="large"/>
+                <GitHub style={{fontSize:'40px'}} />
               </IconButton>
             </li>
             <li>
@@ -47,7 +47,7 @@ export default function Home(){
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twitter fontSize="large" />
+                <Twitter style={{fontSize:'40px'}} />
               </IconButton>
             </li>
             <li>
@@ -56,7 +56,7 @@ export default function Home(){
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkedIn fontSize="large" />
+                <LinkedIn style={{fontSize:'40px'}}/>
               </IconButton>
             </li>
           </ul>

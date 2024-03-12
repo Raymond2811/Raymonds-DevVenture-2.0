@@ -35,6 +35,12 @@ a{
   display: flex;
   justify-content: center
 }
+
+.socialIcons{
+  list-style: none;
+  padding: 0;
+  color: purple;
+}
 /* end */
 
 /* about page */
