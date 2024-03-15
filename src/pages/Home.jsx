@@ -1,7 +1,7 @@
 import {useTypewriter, Cursor } from 'react-simple-typewriter';
-import { Button, IconButton, Typography } from '@mui/material';
-import { GitHub, Twitter, LinkedIn } from '@mui/icons-material';
+import { Button, Typography } from '@mui/material';
 import avatar1 from '../assets/images/Avatar1.png'
+import { Link } from 'react-router-dom';
 
 export default function Home(){
 
@@ -27,40 +27,13 @@ export default function Home(){
           </span>
         </p>
         <Button variant="contained" style={{backgroundColor: 'purple', color:'white'}}>
-          About Me
+          <Link
+            to="/about"
+            style={{color:'white'}}
+          >
+            About Me
+          </Link>
         </Button>
-        
-        <div className="socials">
-          <ul className="socialIcons">
-            <li>
-              <IconButton
-                href="https://github.com/Raymond2811"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GitHub style={{fontSize:'50px', color: 'purple',}} />
-              </IconButton>
-            </li>
-            <li>
-              <IconButton
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Twitter style={{fontSize:'50px',color: 'purple'}} />
-              </IconButton>
-            </li>
-            <li>
-              <IconButton
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LinkedIn style={{fontSize:'50px',color: 'purple'}}/>
-              </IconButton>
-            </li>
-          </ul>
-        </div>
       </div>
 
       <div className="column2">
