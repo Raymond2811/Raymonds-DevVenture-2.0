@@ -4,7 +4,7 @@ import EzBank from "../assets/images/EzBank.png";
 import JATE from "../assets/images/JATE.png";
 import portfolioV1 from "../assets/images/Portfolio.png";
 import SkyInsight from "../assets/images/SkyInsight.png";
-import soon from "../assets/images/coming-soon.jpeg";
+import BlazeDisplayz from  '../assets/images/BlazeDisplayz.png';
 
 
 export default function Portfolio(){
@@ -27,7 +27,7 @@ export default function Portfolio(){
       title: "BlazeDisplayz",
       link:'https://the-blazed-render-displayz.onrender.com',
       repo:'https://github.com/Gsandman8/BlazeDisplayz',
-      image: soon,
+      image: BlazeDisplayz,
       desc: 'This application was created as a showcase of our full stack development skills by creating a MERN stack E-Commerce website with stripe checkout capabilities.',
     },
     {
