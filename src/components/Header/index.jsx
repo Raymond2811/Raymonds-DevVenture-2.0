@@ -10,7 +10,15 @@ export default function Header() {
           justifyContent: 'space-between',
         }}
       >
-        <Typography variant="h4">Raymond Bautista</Typography>
+        <Typography variant="h4">
+          CODE
+          <span
+          style={{color:'purple'}}
+          >
+            FOLIO
+          </span>
+        </Typography>
+
         <NavTabs />
       </Toolbar>
     </header>
