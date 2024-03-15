@@ -4,6 +4,8 @@
 
 body{
   margin: 0;
+  background-color: black;
+  color: white;
 }
 
 p{
@@ -54,16 +56,18 @@ main{
 
 .aboutContainer .imageContainer {
   flex: 1;
-  margin-right: 20px;
+  margin: auto;
 }
 
 .aboutContainer .textContainer {
   flex: 2;
+  margin-right: 50px;
 }
 
 .aboutContainer img {
   max-width: 100%;
   height: auto;
+  border-radius: 6px;
 }
 /* end */
 
@@ -83,6 +87,18 @@ main{
 /* contact page */
 .contactContainer .row{
   display: flex;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+body .contactContainer .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white ;
+}
+
+body .contactContainer .MuiInputLabel-root {
+  color: white ;
 }
 
 .formColumn {

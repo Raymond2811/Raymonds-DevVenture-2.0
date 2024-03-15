@@ -6,7 +6,7 @@ import avatar1 from '../assets/images/Avatar1.png'
 export default function Home(){
 
   const [text] = useTypewriter({
-    words: ['Frontend Development', 'Backend Development', 'Web Designing'],
+    words: ['Frontend Development', 'Backend Development', 'Web Design'],
     loop:{},
     typeSpeed: 80,
     deleteSpeed: 80,
@@ -19,10 +19,10 @@ export default function Home(){
           Hello, I am <br /> Raymond Bautista
         </Typography>
         <p style={{fontSize:'25px'}}> I am into {' '}
-          <span style={{fontWeight:'bold', color:'red'}}>
+          <span style={{fontWeight:'bold', color:'purple'}}>
             {text}
           </span>
-          <span style={{color: 'red'}}>
+          <span style={{color: 'purple'}}>
             <Cursor cursorStyle='|'/>
           </span>
         </p>
@@ -38,7 +38,7 @@ export default function Home(){
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GitHub style={{fontSize:'40px'}} />
+                <GitHub style={{fontSize:'50px', color: 'purple',}} />
               </IconButton>
             </li>
             <li>
@@ -47,7 +47,7 @@ export default function Home(){
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twitter style={{fontSize:'40px'}} />
+                <Twitter style={{fontSize:'50px',color: 'purple'}} />
               </IconButton>
             </li>
             <li>
@@ -56,7 +56,7 @@ export default function Home(){
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkedIn style={{fontSize:'40px'}}/>
+                <LinkedIn style={{fontSize:'50px',color: 'purple'}}/>
               </IconButton>
             </li>
           </ul>

@@ -62,6 +62,11 @@ export default function Contact(){
             onChange={handleInputChange}
             error={Boolean(nameError)}
             helperText={nameError}
+            InputProps={{
+              style: {
+                color: 'white',
+              },
+            }}
           />
 
           <TextField
@@ -71,6 +76,11 @@ export default function Contact(){
             onChange={handleInputChange}
             error={Boolean(emailError)}
             helperText={emailError}
+            InputProps={{
+              style: {
+                color: 'white',
+              },
+            }}
           />
 
           <TextField
@@ -82,6 +92,11 @@ export default function Contact(){
             onChange={handleInputChange}
             error={Boolean(messageError)}
             helperText={messageError}
+            InputProps={{
+              style: {
+                color: 'white',
+              },
+            }}
           />
 
           <Button type="submit" variant="contained">

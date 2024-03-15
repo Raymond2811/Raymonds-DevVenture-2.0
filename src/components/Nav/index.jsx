@@ -22,6 +22,7 @@ function NavTabs() {
     >
       {tabData.map((tab, index) => (
         <Tab
+          style={{color:'white'}}
           key={index}
           label={tab.label}
           component={Link}
