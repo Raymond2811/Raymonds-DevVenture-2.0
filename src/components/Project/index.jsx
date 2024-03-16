@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
+import './Project.css';
 
 
 export default function Project({item}) {
@@ -27,11 +28,11 @@ export default function Project({item}) {
           </Typography>
         </CardContent>
         <CardActions>
-          <IconButton size="small" href={item.link} target="_blank">
-            <WebIcon/>
+          <IconButton href={item.link} target="_blank" className='iconButton'>
+            <WebIcon fontSize="large"/>
           </IconButton>
-          <IconButton size="small" href={item.repo} target="_blank">
-            <GitHubIcon/>
+          <IconButton href={item.repo} target="_blank" className='iconButton'>
+            <GitHubIcon fontSize="large"/>
           </IconButton>
         </CardActions>
       </Card>
