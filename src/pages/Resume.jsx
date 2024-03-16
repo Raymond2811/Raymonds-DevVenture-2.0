@@ -6,7 +6,15 @@ export default function Resume(){
       <h1>Resume</h1>
       <div className='row'>
         <div className='resumeColumn'>
-          <p>Download my <a href={resume} target='_blank'>resume</a></p>
+          <p>Download my {' '}
+            <a 
+            href={resume} 
+            target='_blank'
+            className='resumeLink'
+            >
+              resume
+            </a>
+          </p>
 
           <h2> Front-end Proficiencies </h2>
           <ul>
@@ -31,7 +39,7 @@ export default function Resume(){
           </ul>
         </div>
         <div className='imageColumn'>
-          <img src={resume} alt='resume'/>
+          <img src={resume} alt='resume' style={{borderRadius:'6px'}}/>
         </div>
       </div>
     </section>
