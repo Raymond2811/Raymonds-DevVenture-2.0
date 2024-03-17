@@ -6,6 +6,9 @@ body{
   margin: 0;
   background-color: black;
   color: white;
+  background-image: url('./assets/images/backgroundImg.jpg');
+  background-size: cover;
+  background-position: center; 
 }
 
 p{
