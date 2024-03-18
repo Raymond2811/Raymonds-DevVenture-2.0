@@ -10,6 +10,7 @@ header .navTab .activeTab{
   display: none;
 }
 
+
 @media(max-width: 770px){
   .navContainer .navbar{
     display: none;

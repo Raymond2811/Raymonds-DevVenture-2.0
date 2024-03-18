@@ -64,6 +64,7 @@ function NavTabs() {
             role="presentation"
             onClick={handleDrawerToggle}
             onKeyDown={handleDrawerToggle}
+            style={{width:'250px', backgroundColor:'black', height:'100%'}}
           >
             <Tabs
               value={currentIndex !== -1 ? currentIndex : false}
@@ -77,7 +78,11 @@ function NavTabs() {
                   component={Link}
                   to={tab.to}
                   value={index}
-                  className={`${currentIndex === index ? 'activeTab' : ''}`}
+                  style={{
+                    fontSize: '30px',
+                    color: 'white',
+                    backgroundColor: currentIndex === index ? 'purple' : '',
+                  }}
                 />
               ))}
             </Tabs>
