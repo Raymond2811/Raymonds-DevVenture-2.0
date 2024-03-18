@@ -8,7 +8,8 @@ body{
   color: white;
   background-image: url('./assets/images/backgroundImg.jpg');
   background-size: cover;
-  background-position: center; 
+  background-position: 100% auto;
+  background-repeat: no-repeat; 
 }
 
 p{
@@ -30,6 +31,7 @@ main{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .column1 {
@@ -42,12 +44,7 @@ main{
 .column2 {
   flex: 1;
   display: flex;
-  justify-content: center
-}
-
-.socialIcons{
-  list-style: none;
-  padding: 0;
+  justify-content: center;
 }
 /* end */
 
@@ -167,3 +164,9 @@ body .contactContainer .MuiInputLabel-root {
 }
 
 /* end */
+
+@media (max-width:1105px) {
+  body{
+    background-image: url('./assets/images/backgroundImgVertical.jpg');
+  }
+}
