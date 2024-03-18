@@ -6,6 +6,16 @@ header .navTab .activeTab{
   display: none;
 }
 
-.navTab .defaultTab{
-  color: black;
+.sidebar{
+  display: none;
+}
+
+@media(max-width: 770px){
+  .navContainer .navbar{
+    display: none;
+  }
+
+  .navContainer .sidebar{
+    display: block;
+  }
 }
