@@ -10,7 +10,6 @@ header .navTab .activeTab{
   display: none;
 }
 
-
 @media(max-width: 770px){
   .navContainer .navbar{
     display: none;
@@ -18,5 +17,11 @@ header .navTab .activeTab{
 
   .navContainer .sidebar{
     display: block;
+  }
+}
+
+@media(max-width:430px){
+  nav{
+    padding-left: 43%;
   }
 }
