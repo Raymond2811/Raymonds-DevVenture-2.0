@@ -10,7 +10,7 @@ export default function Header() {
           justifyContent: 'space-between',
         }}
       >
-        <Typography variant="h4">
+        <Typography variant="h3">
           CODE
           <span
           style={{color:'purple'}}

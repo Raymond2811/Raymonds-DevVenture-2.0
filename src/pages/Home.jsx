@@ -6,7 +6,12 @@ import { Link } from 'react-router-dom';
 export default function Home(){
 
   const [text] = useTypewriter({
-    words: ['Frontend Development', 'Backend Development', 'Web Design'],
+    words: 
+      [
+      'Frontend Development', 
+      'Backend Development', 
+      'Web Design',
+      ],
     loop:{},
     typeSpeed: 80,
     deleteSpeed: 80,
@@ -15,10 +20,10 @@ export default function Home(){
   return(
     <section className="homeContainer">
       <div className="col">
-        <Typography variant="h3">
+        <Typography variant="h2">
           Hello, I am <br /> Raymond Bautista
         </Typography>
-        <p style={{fontSize:'25px'}}> I am into {' '}
+        <p style={{fontSize:'40px'}}> I am into {' '}
           <span style={{fontWeight:'bold', color:'purple'}}>
             {text}
           </span>
@@ -26,7 +31,10 @@ export default function Home(){
             <Cursor cursorStyle='|'/>
           </span>
         </p>
-        <Button variant="contained" style={{backgroundColor: 'purple', color:'white'}}>
+        <Button 
+          variant="contained" 
+          className='aboutMeBtn'
+        >
           <Link
             to="/about"
             style={{color:'white'}}
