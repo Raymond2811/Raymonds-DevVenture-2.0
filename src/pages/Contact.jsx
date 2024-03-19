@@ -54,7 +54,7 @@ export default function Contact(){
     <section className='contactContainer'>
       <h1>Contact</h1>
       <div className='row'>
-        <form className="formColumn" onSubmit={submitForm}>
+        <form className="col" onSubmit={submitForm}>
           <TextField
             label="Name"
             name="Name"

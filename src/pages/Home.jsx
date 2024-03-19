@@ -14,7 +14,7 @@ export default function Home(){
   
   return(
     <section className="homeContainer">
-      <div className="column1">
+      <div className="col">
         <Typography variant="h3">
           Hello, I am <br /> Raymond Bautista
         </Typography>
@@ -36,7 +36,7 @@ export default function Home(){
         </Button>
       </div>
 
-      <div className="column2">
+      <div className="imageColumn">
         <img src={avatar1} alt='avatar'/>
       </div>
     </section>

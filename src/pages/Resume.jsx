@@ -5,7 +5,7 @@ export default function Resume(){
     <section className='resumeContainer'>
       <h1>Resume</h1>
       <div className='row'>
-        <div className='resumeColumn'>
+        <div className='col'>
           <p>Download my {' '}
             <a 
             href={resume} 

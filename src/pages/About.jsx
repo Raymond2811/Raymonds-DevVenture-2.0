@@ -7,10 +7,10 @@ export default function About(){
     <section className="aboutContainer">
       <h1>About Me</h1>
       <div className="row">
-        <div className="imageContainer">
+        <div className="imageColumn">
           <img src={avatar2} alt="avatar" />
         </div>
-        <div className="textContainer">
+        <div className="col">
           <p>
             Hello! I'm Raymond Bautista, a recent graduate and aspiring full-stack developer. 
             I'm excited to bring my fresh perspective and knowledge to real-world projects.
@@ -35,7 +35,7 @@ export default function About(){
       </div>
 
       <div className="row">
-        <div className="textContainer">
+        <div className="col">
           <p>
             I graduated from UC Berkeley Extension, where I honed my 
             technical skills and developed a passion for applying technology to real-world 
@@ -57,7 +57,7 @@ export default function About(){
             contribute to your team, let's connect.
           </p>
         </div>
-        <div className="imageContainer">
+        <div className="imageColumn">
           <img src={berkeley} alt="UC Berkeley Extension" />
         </div>
       </div>

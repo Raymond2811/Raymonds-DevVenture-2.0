@@ -25,70 +25,50 @@ main{
   margin: 0px 50px 0px 50px;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.col{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.imageColumn{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* home page */
 
 .homeContainer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.column1 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+.homeContainer .col,
+.portfolioContainer .col
+{
   align-items: center;
 }
 
-.column2 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
 /* end */
 
 /* about page */
-.aboutContainer .row {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.aboutContainer .imageContainer {
-  flex: 1;
-  margin: auto;
-}
-
-.aboutContainer .textContainer {
-  flex: 2;
-  margin-right: 50px;
-}
-
 .aboutContainer img {
   max-width: 100%;
-  height: auto;
   border-radius: 6px;
 }
 /* end */
 
-.portfolioContainer .row{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.portfolioContainer .col{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 25px;
-}
-
 /* contact page */
-.contactContainer .row{
-  display: flex;
-}
-
 .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
   border-color: white;
 }
@@ -101,28 +81,15 @@ body .contactContainer .MuiInputLabel-root {
   color: white ;
 }
 
-.formColumn {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.formColumn .MuiTextField-root {
+.contactContainer .MuiTextField-root {
   width: 90%; 
   margin-bottom: 10px;
 }
 
-.formColumn .MuiButton-root {
+.contactContainer .MuiButton-root {
   width: 25%; 
   background-color: purple;
   color: white;
-}
-
-.contactContainer .imageColumn {
-  flex: 1;
-  margin-bottom: 50px;
 }
 
 .contactContainer img{
@@ -138,25 +105,6 @@ body .contactContainer .MuiInputLabel-root {
   &:hover{
     opacity: 0.7;
   }
-}
-
-.resumeContainer .row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.resumeContainer .resumeColumn {
-  flex: 1;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.resumeContainer .imageColumn {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .resumeContainer ul{ 
