@@ -74,7 +74,6 @@ main{
 /* about page */
 .aboutContainer img
 {
-  /* max-width: 100%; */
   border-radius: 6px;
 }
 /* end */
@@ -93,7 +92,6 @@ body .contactContainer .MuiInputLabel-root {
 }
 
 .contactContainer .MuiTextField-root {
-  /* width: 100%;  */
   margin-bottom: 10px;
 }
 
@@ -102,11 +100,9 @@ body .contactContainer .MuiInputLabel-root {
   background-color: purple;
   color: white;
 }
-
 /* end */
 
 /* resume page */
-
 .resumeLink{
   color: purple;
   transition: opacity 0.3s ease;
@@ -152,11 +148,10 @@ body .contactContainer .MuiInputLabel-root {
   }
 
   .contactContainer .MuiTextField-root {
-    width: 400px; 
+    width: 350px; 
   }
 
   .contactContainer .MuiButton-root {
-    width: 50%;
     height: 50px;
     font-size: 18px; 
   }

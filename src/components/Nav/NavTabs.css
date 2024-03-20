@@ -22,6 +22,6 @@ header .navTab .activeTab{
 
 @media(max-width:430px){
   nav{
-    padding-left: 43%;
+    padding-left: 25%;
   }
 }
