@@ -72,8 +72,9 @@ main{
 /* end */
 
 /* about page */
-.aboutContainer img {
-  max-width: 100%;
+.aboutContainer img
+{
+  /* max-width: 100%; */
   border-radius: 6px;
 }
 /* end */
@@ -92,7 +93,7 @@ body .contactContainer .MuiInputLabel-root {
 }
 
 .contactContainer .MuiTextField-root {
-  width: 90%; 
+  /* width: 100%;  */
   margin-bottom: 10px;
 }
 
@@ -102,9 +103,6 @@ body .contactContainer .MuiInputLabel-root {
   color: white;
 }
 
-.contactContainer img{
-  width: 80%;
-}
 /* end */
 
 /* resume page */
@@ -126,5 +124,40 @@ body .contactContainer .MuiInputLabel-root {
 @media (max-width:1105px) {
   body{
     background-image: url('./assets/images/backgroundImgVertical.jpg');
+  }
+}
+
+@media(max-width:830px) {
+  .contactContainer img{
+    width: 300px;
+  }
+}
+
+@media(max-width:600px){
+
+  .contactContainer .imageColumn,
+  .contactContainer img
+  {
+    display: none;
+  }
+
+  .contactContainer{
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width:430px){
+  .contactContainer{
+    margin-bottom: 300px;
+  }
+
+  .contactContainer .MuiTextField-root {
+    width: 400px; 
+  }
+
+  .contactContainer .MuiButton-root {
+    width: 50%;
+    height: 50px;
+    font-size: 18px; 
   }
 }
