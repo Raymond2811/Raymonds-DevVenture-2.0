@@ -206,16 +206,11 @@ body .contactContainer .MuiInputLabel-root {
     margin-bottom: 300px;
   }
 
-  .contactContainer .MuiTextField-root {
-    width: 350px; 
-  }
-
   .contactContainer .MuiButton-root {
-    height: 50px;
+    width: 50%;
     font-size: 18px; 
   }
-
-  .homeContainer img{
-    width: 250px;
+  .aboutContainer p {
+    width: auto;
   }
 }

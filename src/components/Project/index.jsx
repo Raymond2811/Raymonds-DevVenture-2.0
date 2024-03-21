@@ -12,11 +12,10 @@ import './Project.css';
 export default function Project({item}) {
   return(
     <div className="projectContainer">
-      <Card style={{width:'400px'}}>
+      <Card className='projectCard'>
         <CardMedia
           component="img"
           alt={item.title}
-          height="100%"
           image={item.image}  
         />
         <CardContent>

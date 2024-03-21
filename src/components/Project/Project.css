@@ -5,3 +5,19 @@
     opacity: 0.7;
   }
 }
+
+.projectContainer .projectCard{
+  width: 400px;
+}
+
+@media(max-width:950px){
+  .projectContainer .projectCard{
+    width: 350px;
+  }
+}
+
+@media(max-width:500px){
+  .projectContainer .projectCard{
+    width: 300px;
+  }
+}
