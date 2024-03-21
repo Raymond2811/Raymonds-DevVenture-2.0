@@ -20,14 +20,21 @@ export default function Home(){
   return(
     <section className="homeContainer">
       <div className="col">
-        <Typography variant="h2">
+        <Typography variant="h2" className='text'>
           Hello, I am <br /> Raymond Bautista
         </Typography>
-        <p style={{fontSize:'40px'}}> I am into {' '}
-          <span style={{fontWeight:'bold', color:'purple'}}>
+        <p 
+          className='typewriter'
+        > 
+          I am into {' '}
+          <span 
+            style={{fontWeight:'bold', color:'purple'}}
+          >
             {text}
           </span>
-          <span style={{color: 'purple'}}>
+          <span 
+            style={{color: 'purple'}} 
+          >
             <Cursor cursorStyle='|'/>
           </span>
         </p>

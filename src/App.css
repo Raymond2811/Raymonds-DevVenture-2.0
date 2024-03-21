@@ -51,9 +51,15 @@ main{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 150px;
+}
+
+.typewriter{
+  font-size: 35px;
 }
 
 .homeContainer .aboutMeBtn{
+  font-size: 18px;
   width: 150px;
   height: 50px;
   background-color: purple;
@@ -121,11 +127,43 @@ body .contactContainer .MuiInputLabel-root {
   body{
     background-image: url('./assets/images/backgroundImgVertical.jpg');
   }
+
+  .typewriter{
+    font-size: 30px;
+  }
+
+  .homeContainer .text{
+    font-size: 50px;
+  }
+}
+
+@media (max-width:950px) {
+  .typewriter{
+    font-size: 25px;
+  }
+
+  .homeContainer .text{
+    font-size: 40px;
+  }
+
+  .homeContainer img{
+    width: 300px;
+  }
 }
 
 @media(max-width:830px) {
   .contactContainer img{
     width: 300px;
+  }
+
+  .homeContainer .aboutMeBtn{
+    font-size: 16px;
+    width: auto;
+    height: auto;
+  }
+
+  .homeContainer{
+    margin-bottom: 300px;
   }
 }
 
@@ -139,6 +177,14 @@ body .contactContainer .MuiInputLabel-root {
 
   .contactContainer{
     margin-bottom: 100px;
+  }
+
+  .typewriter{
+    font-size: 20px;
+  }
+
+  .homeContainer .text{
+    font-size: 35px;
   }
 }
 
