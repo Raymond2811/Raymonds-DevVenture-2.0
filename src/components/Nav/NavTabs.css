@@ -19,9 +19,3 @@ header .navTab .activeTab{
     display: block;
   }
 }
-
-@media(max-width:430px){
-  nav{
-    padding-left: 25%;
-  }
-}
