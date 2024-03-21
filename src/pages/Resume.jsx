@@ -1,4 +1,6 @@
-import resume from '../assets/images/Resume.pdf'
+import resumePDF from '../assets/images/Resume.pdf';
+import resumePg1 from '../assets/images/ResumeImage.png';
+// import resumePg2 from '../assets/images/ResumeImage2.png';
 
 export default function Resume(){
   return (
@@ -8,9 +10,10 @@ export default function Resume(){
         <div className='col'>
           <p>Download my {' '}
             <a 
-            href={resume} 
+            href={resumePDF} 
             target='_blank'
             className='resumeLink'
+            rel="noopener noreferrer"
             >
               resume
             </a>
@@ -39,7 +42,7 @@ export default function Resume(){
           </ul>
         </div>
         <div className='imageColumn'>
-          <img src={resume} alt='resume' style={{borderRadius:'6px'}}/>
+          <img src={resumePg1} alt='resume'/>
         </div>
       </div>
     </section>

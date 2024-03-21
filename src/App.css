@@ -120,6 +120,11 @@ body .contactContainer .MuiInputLabel-root {
   list-style: circle;
 }
 
+.resumeContainer img{
+  border-radius: 6px;
+  width: 450px;
+}
+
 /* end */
 
 @media (max-width:1105px) {
@@ -199,6 +204,10 @@ body .contactContainer .MuiInputLabel-root {
   .aboutContainer p {
     width: 350px;
   }
+
+  .resumeContainer img{
+    width: 350px;
+  }
 }
 
 @media (max-width:430px){
@@ -212,5 +221,9 @@ body .contactContainer .MuiInputLabel-root {
   }
   .aboutContainer p {
     width: auto;
+  }
+
+  .resumeContainer img{
+    width: 300px;
   }
 }
