@@ -1,6 +1,7 @@
 import resumePDF from '../assets/images/Resume.pdf';
 import resumePg1 from '../assets/images/ResumeImage.png';
-// import resumePg2 from '../assets/images/ResumeImage2.png';
+import resumePg2 from '../assets/images/ResumeImage2.png';
+import { Carousel } from 'react-bootstrap';
 
 export default function Resume(){
   return (
