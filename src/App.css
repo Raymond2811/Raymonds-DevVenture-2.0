@@ -152,7 +152,8 @@ body .contactContainer .MuiInputLabel-root {
 }
 
 @media(max-width:830px) {
-  .contactContainer img{
+  .contactContainer img,
+  .aboutContainer img{
     width: 300px;
   }
 
@@ -164,6 +165,17 @@ body .contactContainer .MuiInputLabel-root {
 
   .homeContainer{
     margin-bottom: 300px;
+  }
+}
+
+@media(max-width:710px){
+  .aboutContainer p {
+    width: 500px;
+  }
+
+  .aboutContainer .col{
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -185,6 +197,10 @@ body .contactContainer .MuiInputLabel-root {
 
   .homeContainer .text{
     font-size: 35px;
+  }
+
+  .aboutContainer p {
+    width: 350px;
   }
 }
 
