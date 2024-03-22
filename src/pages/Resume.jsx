@@ -43,7 +43,24 @@ export default function Resume(){
           </ul>
         </div>
         <div className='imageColumn'>
-          <img src={resumePg1} alt='resume'/>
+          <div className='carouselContainer'>
+            <Carousel data-bs-theme="dark">
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={resumePg1}
+                  alt="resume page 1"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={resumePg2}
+                  alt="resume page 2"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </div>
         </div>
       </div>
     </section>

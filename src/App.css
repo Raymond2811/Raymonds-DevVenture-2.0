@@ -125,6 +125,10 @@ body .contactContainer .MuiInputLabel-root {
   width: 450px;
 }
 
+.carouselContainer{
+  width: 400px;
+}
+
 /* end */
 
 @media (max-width:1105px) {
