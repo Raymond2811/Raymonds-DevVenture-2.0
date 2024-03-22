@@ -40,7 +40,9 @@ export default function Footer() {
         </li>
       </ul>
       <div className="footerBottom">
-        <p>Copyright &copy;2024; Designed by RAYMOND</p>
+        <p>Copyright &copy;2024; Designed by {' '}
+          <span style={{fontFamily:'Vujahday Script'}}>RAYMOND</span>
+        </p>
       </div>
     </footer>
   );
