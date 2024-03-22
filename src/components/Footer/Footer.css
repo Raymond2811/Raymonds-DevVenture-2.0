@@ -1,7 +1,7 @@
 .footerContainer{
   width: 100%;
   padding: 10px 0px;
-  margin: 25px 0px 20px 0px;
+  margin: 25px 0px 25px 0px;
 }
 
 .socialIcons{
@@ -9,10 +9,7 @@
   justify-content: center;
   margin-bottom: 10px;
   list-style: none;
-}
-
-.socialIcons a{
-  padding: 10px;
+  padding: 0;
 }
 
 .footerBottom{

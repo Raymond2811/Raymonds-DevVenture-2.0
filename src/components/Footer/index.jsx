@@ -5,7 +5,7 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className="footerContainer " >
+    <footer className="footerContainer ">
       <ul className="socialIcons">
         <li>
           <IconButton
@@ -41,6 +41,6 @@ export default function Footer() {
       <div className="footerBottom">
         <p>Copyright &copy;2024; Designed by RAYMOND</p>
       </div>
-    </div>
+    </footer>
   );
 }
