@@ -187,16 +187,22 @@ body .contactContainer .MuiInputLabel-root {
   }
 }
 
+@media(max-width:630px){
+  .contactContainer{
+    margin-bottom: 175px;
+  }
+
+  .homeContainer{
+    margin-bottom: 325px;
+  }
+}
+
 @media(max-width:600px){
 
   .contactContainer .imageColumn,
   .contactContainer img
   {
     display: none;
-  }
-
-  .contactContainer{
-    margin-bottom: 100px;
   }
 
   .typewriter{
