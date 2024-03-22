@@ -1,4 +1,4 @@
-import avatar2 from '../assets/images/avatar2.png';
+import avatar2 from '../assets/images/Avatar2.png';
 import berkeley from '../assets/images/Berkeley.jpeg';
 
 export default function About(){
