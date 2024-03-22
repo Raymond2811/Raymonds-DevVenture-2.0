@@ -1,11 +1,10 @@
-import avatar from '../assets/images/Avatar.png';
 import avatar2 from '../assets/images/avatar2.png';
 import berkeley from '../assets/images/Berkeley.jpeg';
 
 export default function About(){
   return (
     <section className="aboutContainer">
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <div className="row">
         <div className="imageColumn">
           <img src={avatar2} alt="avatar" />

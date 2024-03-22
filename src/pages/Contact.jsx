@@ -2,6 +2,7 @@ import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import contactImg from '../assets/images/email.png';
+import { Typography } from '@mui/material';
 
 export default function Contact(){
 
@@ -52,7 +53,7 @@ export default function Contact(){
 
   return (
     <section className='contactContainer'>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <div className='row'>
         <form className="col" onSubmit={submitForm}>
           <TextField

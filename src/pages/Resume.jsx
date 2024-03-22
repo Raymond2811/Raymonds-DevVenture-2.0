@@ -6,7 +6,7 @@ import { Carousel } from 'react-bootstrap';
 export default function Resume(){
   return (
     <section className='resumeContainer'>
-      <h1>Resume</h1>
+      <h2>Resume</h2>
       <div className='row'>
         <div className='col'>
           <p>Download my {' '}

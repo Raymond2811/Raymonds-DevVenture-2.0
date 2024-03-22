@@ -6,7 +6,6 @@ import portfolioV1 from "../assets/images/Portfolio.png";
 import SkyInsight from "../assets/images/SkyInsight.png";
 import BlazeDisplayz from  '../assets/images/BlazeDisplayz.png';
 
-
 export default function Portfolio(){
   const projects = [
     {
@@ -54,7 +53,7 @@ export default function Portfolio(){
   ]
   return (
     <section className="portfolioContainer">
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       <div className="row">
         {projects.map((item, index) => (
           <div key={index} className="col">
