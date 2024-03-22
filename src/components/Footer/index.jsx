@@ -1,5 +1,6 @@
 import { IconButton } from '@mui/material';
-import { GitHub, Twitter, LinkedIn } from '@mui/icons-material';
+import { GitHub, LinkedIn } from '@mui/icons-material';
+import XIcon from '@mui/icons-material/X';
 import './Footer.css'
 
 
@@ -19,22 +20,22 @@ export default function Footer() {
         </li>
         <li>
           <IconButton
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="iconButtonHover"
-          >
-            <Twitter style={{fontSize:'50px',color: 'purple'}} />
-          </IconButton>
-        </li>
-        <li>
-          <IconButton
             href="https://www.linkedin.com/in/raymond-bautista-aa20452b2/"
             target="_blank"
             rel="noopener noreferrer"
             className="iconButtonHover"
           >
             <LinkedIn style={{fontSize:'50px',color: 'purple'}}/>
+          </IconButton>
+        </li>
+        <li>
+          <IconButton
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="iconButtonHover"
+          >
+            <XIcon style={{fontSize:'50px',color: 'purple'}} />
           </IconButton>
         </li>
       </ul>

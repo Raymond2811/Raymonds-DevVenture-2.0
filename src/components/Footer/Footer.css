@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+.socialIcons li{
+  padding: 0px 10px;
+}
+
 .footerBottom{
   display: flex;
   justify-content: center;
