@@ -3,7 +3,6 @@ import { GitHub, LinkedIn } from '@mui/icons-material';
 import XIcon from '@mui/icons-material/X';
 import './Footer.css'
 
-
 export default function Footer() {
   return (
     <footer className="footerContainer ">
@@ -13,7 +12,7 @@ export default function Footer() {
             href="https://github.com/Raymond2811"
             target="_blank"
             rel="noopener noreferrer"
-            className="iconButtonHover"
+            className="iconBtnHover"
           >
             <GitHub 
               style={{fontSize:'50px'}} 
@@ -26,7 +25,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/raymond-bautista-aa20452b2/"
             target="_blank"
             rel="noopener noreferrer"
-            className="iconButtonHover"
+            className="iconBtnHover"
           >
             <LinkedIn 
               style={{fontSize:'50px'}} 
@@ -39,7 +38,7 @@ export default function Footer() {
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="iconButtonHover"
+            className="iconBtnHover"
           >
             <XIcon 
               style={{fontSize:'50px'}} 

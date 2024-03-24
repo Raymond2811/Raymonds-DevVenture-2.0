@@ -25,10 +25,10 @@
   justify-content: center;
 }
 
-.iconButtonHover {
+.iconBtnHover {
   transition: opacity 0.3s ease;
 }
 
-.iconButtonHover:hover {
+.iconBtnHover:hover {
   opacity: 0.7;
 }

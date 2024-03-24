@@ -1,13 +1,14 @@
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
+import { 
+  Card, 
+  CardActions, 
+  CardMedia, 
+  CardContent, 
+  Typography, 
+  IconButton
+} from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
 import './Project.css';
-
 
 export default function Project({item}) {
   return(

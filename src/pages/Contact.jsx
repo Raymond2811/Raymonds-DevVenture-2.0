@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
+import { TextField, Button } from '@mui/material';
 import contactImg from '../assets/images/email.png';
 
 export default function Contact(){
@@ -107,9 +106,11 @@ export default function Contact(){
             Submit
           </Button>
         </form>
+
         <div className="imageColumn">
           <img src={contactImg} alt="contact image"/>
         </div>
+        
       </div>
     </section>
   );
