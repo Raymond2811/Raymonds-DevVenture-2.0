@@ -2,10 +2,16 @@
   box-sizing: border-box;
 }
 
+:root{
+  --primary-color: purple;
+  --secondary-color: white;
+  --tertiary-color: #8022a5;
+}
+
 body{
   margin: 0;
   background-color: black;
-  color: white;
+  color: var(--secondary-color);
   background-image: url('./assets/images/backgroundImg.jpg');
   background-size: cover;
   background-position: 100% auto;
@@ -21,6 +27,7 @@ p{
 
 a{
   text-decoration: none;
+  color: var(--secondary-color);
 }
 
 main{
@@ -47,6 +54,10 @@ main{
   align-items: center;
 }
 
+header .folio{
+  color: var(--primary-color);
+}
+
 /* home page */
 
 .homeContainer {
@@ -61,12 +72,16 @@ main{
   font-size: 35px;
 }
 
+.typewriter span{
+  color: var(--primary-color);
+}
+
 .homeContainer .aboutMeBtn{
   font-size: 18px;
-  background-color: purple;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   &:hover{
-    background-color: #8022a5
+    background-color: var(--tertiary-color);
   }
 }
 
@@ -86,32 +101,32 @@ main{
 /* end */
 
 /* contact page */
-.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
-  border-color: white;
-}
-
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
 body .contactContainer .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
-  border-color: white ;
+  border-color: var(--secondary-color);
 }
 
 body .contactContainer .MuiInputLabel-root {
-  color: white ;
+  color: var(--secondary-color) ;
 }
 
 .contactContainer .MuiTextField-root {
   margin-bottom: 10px;
 }
 
-.contactContainer .MuiButton-root {
+.contactContainer .submitBtn {
   width: 25%; 
-  background-color: purple;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  &:hover{
+    background-color: var(--tertiary-color)
+  }
 }
 /* end */
 
 /* resume page */
 .resumeLink{
-  color: purple;
+  color: var(--primary-color);
   transition: opacity 0.3s ease;
   &:hover{
     opacity: 0.7;

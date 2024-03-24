@@ -15,7 +15,10 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="iconButtonHover"
           >
-            <GitHub style={{fontSize:'50px', color: 'purple',}} />
+            <GitHub 
+              style={{fontSize:'50px'}} 
+              className='footerIcons'
+            />
           </IconButton>
         </li>
         <li>
@@ -25,7 +28,10 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="iconButtonHover"
           >
-            <LinkedIn style={{fontSize:'50px',color: 'purple'}}/>
+            <LinkedIn 
+              style={{fontSize:'50px'}} 
+              className='footerIcons'
+            />
           </IconButton>
         </li>
         <li>
@@ -35,7 +41,10 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="iconButtonHover"
           >
-            <XIcon style={{fontSize:'50px',color: 'purple'}} />
+            <XIcon 
+              style={{fontSize:'50px'}} 
+              className='footerIcons'
+            />
           </IconButton>
         </li>
       </ul>

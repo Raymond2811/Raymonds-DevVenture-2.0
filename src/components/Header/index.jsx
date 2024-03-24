@@ -13,7 +13,7 @@ export default function Header() {
         <Typography variant="h3">
           CODE
           <span
-          style={{color:'purple'}}
+          className='folio'
           >
             FOLIO
           </span>

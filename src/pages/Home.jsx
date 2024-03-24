@@ -28,13 +28,11 @@ export default function Home(){
         > 
           I am into {' '}
           <span 
-            style={{fontWeight:'bold', color:'purple'}}
+            style={{fontWeight:'bold'}}
           >
             {text}
           </span>
-          <span 
-            style={{color: 'purple'}} 
-          >
+          <span>
             <Cursor cursorStyle='|'/>
           </span>
         </p>
@@ -44,7 +42,6 @@ export default function Home(){
         >
           <Link
             to="/about"
-            style={{color:'white'}}
           >
             About Me
           </Link>

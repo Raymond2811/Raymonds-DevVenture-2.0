@@ -1,5 +1,10 @@
 header .navTab .activeTab{
-  background-color: purple;
+  background-color: var(--primary-color);
+  color:var(--secondary-color); 
+}
+
+header .navTab a{
+  color:var(--secondary-color); 
 }
 
 .navTab .MuiTabs-indicator {

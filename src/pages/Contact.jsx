@@ -2,7 +2,6 @@ import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import contactImg from '../assets/images/email.png';
-import { Typography } from '@mui/material';
 
 export default function Contact(){
 
@@ -100,7 +99,11 @@ export default function Contact(){
             }}
           />
 
-          <Button type="submit" variant="contained">
+          <Button 
+            type="submit" 
+            variant="contained" 
+            className='submitBtn'
+          >
             Submit
           </Button>
         </form>
