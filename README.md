@@ -4,7 +4,9 @@
 
 I developed this app to showcase the projects I've built throughout the course mainly using React and Material UI. This portfolio provides a user-friendly interface where you can explore various tabs such as About Me, Contact, Portfolio, and Resume.
 
-https://raymonds-devventure2.netlify.app
+![portfolio-homepage](assets/images/Portfolio-Home.png)
+
+Check out the live version [here](https://raymonds-devventure2.netlify.app).
 
 ## Technologies-Used
 
@@ -20,15 +22,15 @@ https://raymonds-devventure2.netlify.app
 ## Installation
 
 To run this project locally, follow these steps:
-1. Clone the repository to your local machine: git clone git@github.com:Raymond2811/Raymonds-DevVenture-2.0.git
+1. Clone the repository to your local machine: `git clone git@github.com:Raymond2811/Raymonds-DevVenture-2.0.git`
 
-2. Navigate to the project directory: cd path/to/your/project-directory 
+2. Navigate to the project directory:  `cd path/to/your/project-directory`
 
-3. Open the project in Visual Studio Code (optional): code .
+3. Open the project in Visual Studio Code (optional): `code .`
 
-4. Install dependencies using npm install
+4. Install dependencies: `npm install`
 
-5. Start the server: npm run dev
+5. Start the server: `npm run dev`
 
 6. Open your web browser and visit http://localhost:3000 to view the application.
 
