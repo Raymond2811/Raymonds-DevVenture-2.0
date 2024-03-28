@@ -4,7 +4,7 @@
 
 I developed this app to showcase the projects I've built throughout the course mainly using React and Material UI. This portfolio provides a user-friendly interface where you can explore various tabs such as About Me, Contact, Portfolio, and Resume.
 
-![portfolio-homepage](assets/images/Portfolio-Home.png)
+![portfolio-homepage](src/assets/images/Portfolio-Home.png)
 
 Check out the live version [here](https://raymonds-devventure2.netlify.app).
 
