@@ -48,6 +48,8 @@ export default function Footer() {
         </li>
       </ul>
       <div className="footerBottom">
+        <p> (650) 278-6631</p>
+        <p>r0628aymond@gmail.com</p>
         <p>Copyright &copy;2024; Designed by {' '}
           <span style={{fontFamily:'Vujahday Script'}}>RAYMOND</span>
         </p>

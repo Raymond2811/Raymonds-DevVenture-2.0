@@ -97,6 +97,7 @@ header .folio{
 .aboutContainer img
 {
   border-radius: 6px;
+  margin-bottom: 10px;
 }
 /* end */
 
@@ -187,7 +188,7 @@ body .contactContainer .MuiInputLabel-root {
   }
 
   .homeContainer{
-    margin-bottom: 300px;
+    margin-bottom: 200px;
   }
 }
 
@@ -208,7 +209,7 @@ body .contactContainer .MuiInputLabel-root {
   }
 
   .homeContainer{
-    margin-bottom: 325px;
+    margin-bottom: 250px;
   }
 }
 
@@ -235,7 +236,7 @@ body .contactContainer .MuiInputLabel-root {
 
 @media (max-width:430px){
   .contactContainer{
-    margin-bottom: 300px;
+    margin-bottom: 200px;
   }
 
   .contactContainer .MuiButton-root {
